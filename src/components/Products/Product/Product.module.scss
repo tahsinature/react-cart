@@ -1,0 +1,36 @@
+.Product {
+  padding: 10px;
+  width: 250px;
+  display: inline-block;
+  margin: 1rem;
+  border: 1px solid transparent;
+  // transition: border-color 0.3s;
+  &:hover {
+    border-color: rgba(0, 0, 0, 0.438);
+  }
+}
+
+.Product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.SizesBar {
+  display: flex;
+  align-items: center;
+}
+.Sizes {
+  margin-left: 0.5rem;
+  display: flex;
+  flex-grow: 1;
+}
+
+.CommonButton {
+  margin-top: 8px;
+  width: 100%;
+
+  &:hover {
+    background: #eabf00;
+  }
+}

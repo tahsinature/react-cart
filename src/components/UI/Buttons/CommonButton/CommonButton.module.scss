@@ -1,0 +1,12 @@
+.CommonButton {
+  padding: 10px;
+  cursor: pointer;
+  background: #0c0b10;
+  color: #fff;
+  outline: none;
+  border: none;
+  transition: all 0.3s;
+  &:disabled {
+    cursor: not-allowed;
+  }
+}

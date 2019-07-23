@@ -1,0 +1,52 @@
+.Item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  transition: background 0.3s;
+  &.WillBeRemoved {
+    background: rgb(83, 83, 83);
+    & p {
+      text-decoration: line-through;
+    }
+  }
+  &:hover {
+    .CloseButton {
+      display: inline-block;
+    }
+  }
+}
+
+.CloseButton {
+  color: rgb(105, 0, 0);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: none;
+  &:hover {
+    color: red;
+  }
+}
+
+.Image {
+  width: 50px;
+  height: 70px;
+}
+
+.TextBox {
+  padding-left: 10px;
+  font-size: 0.8em;
+  .Price {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+}
+
+.PriceBox {
+  margin-left: auto;
+  padding: 15px;
+  font-weight: bold;
+  color: #eabf00;
+}

@@ -1,0 +1,19 @@
+.Main {
+  width: 80vw;
+  margin: auto;
+  position: relative;
+}
+
+.FilterAndProducts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.CartHolder {
+  width: 50vw;
+  position: fixed;
+  display: flex;
+  align-items: flex-start;
+  top: 0;
+  right: 0;
+}
